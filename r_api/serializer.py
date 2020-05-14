@@ -5,8 +5,8 @@ from .models import Artical
 class ArticalSerializer(serializers.ModelSerializer):
     class Meta:
         model = Artical
-        # fields = ['id', 'title', 'author', 'email']
-        fields = '__all__'
+        fields = ['id', 'title', 'author', 'email']
+        # fields = '__all__'
 
 
 
